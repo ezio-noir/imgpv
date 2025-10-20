@@ -1,0 +1,19 @@
+[project]
+name = "imgpv"
+version = "0.1.0"
+description = "Simple image previewer"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pyside6>=6.10.0",
+    "watchdog>=6.0.0",
+]
+
+[project.scripts]
+imgpv = "main:main"
+
+[tool.pyright]
+pythonVersion = "3.13"
+venvPath = "."
+venv = ".venv"
+include = ["src"]
