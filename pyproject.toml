@@ -17,3 +17,8 @@ pythonVersion = "3.13"
 venvPath = "."
 venv = ".venv"
 include = ["src"]
+
+[dependency-groups]
+dev = [
+    "nuitka>=2.8.3",
+]
