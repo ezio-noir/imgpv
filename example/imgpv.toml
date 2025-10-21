@@ -1,0 +1,21 @@
+[base]
+thumbnail_size = 128
+nav_up = "k"
+nav_down = "j"
+nav_left = "h"
+nav_right = "l"
+
+[[keybinds]]
+keys = "ctrl+y"
+command = "wl-copy {{path}}"
+description = "copy path"
+
+[[keybinds]]
+keys = "ctrl+shift+y"
+command = "wl-copy --type image/png < {{path}}"
+description = "copy image"
+
+[[keybinds]]
+keys = "ctrl+w"
+command = "$HOME/.config/hypr/scripts/apply_wallpaper.sh {{path}}"
+description = "Set wallpaper"

@@ -1,0 +1,13 @@
+[theme]
+bg_color = "#1e1e2e"
+text_color = "#cdd6f4"
+text_dim = "#a6adc8"
+header_bg = "#181825"
+footer_bg = "#181825"
+border_color = "#313244"
+thumb_bg = "#313244"
+thumb_hover = "#45475a"
+scroll_bg = "#1e1e2e"
+scroll_handle = "#45475a"
+scroll_handle_hover = "#585b70"
+accent_color = "#89b4fa"

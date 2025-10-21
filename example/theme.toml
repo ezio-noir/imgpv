@@ -1,0 +1,10 @@
+[theme]
+bg_color = "#10140f"
+text_color = "#a1d399"
+text_dim = "#e0e4db"
+separator_color = "#a1d399"
+scroll_bg = "#424940"
+scroll_handle = "#baccb3"
+scroll_handle_hover = "#baccb3"
+accent_color = "#a1d399"
+thumb_active_border = "#a1d399"
